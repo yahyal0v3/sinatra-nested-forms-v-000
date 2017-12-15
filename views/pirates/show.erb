@@ -12,11 +12,11 @@
 
     <h2>Display your first ship here</h2>
     <% @ships.each do |instance| %>
-    <p>Ship Name:<%= @ships.name %></p>
-    <p>Ship Type:<%= @ships.type %></p>
-    <p>Ship Booty:<%= @ships.booty %></p>
+    <p>Ship Name:<%= @instance.name %></p>
+    <p>Ship Type:<%= @instance.type %></p>
+    <p>Ship Booty:<%= @instance.booty %></p>
     <% end %>
-    
+
     <h2>Display your second ship here</h2>
     <p>Ship Name:<%= %></p>
     <p>Ship Type:<%= %></p>
