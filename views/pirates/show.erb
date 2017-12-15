@@ -11,16 +11,13 @@
     <p>Pirate Weight:<%= @pirate.weight %></p>
 
     <h2>Display your first ship here</h2>
-    <% @ships.each do |instance| %>
-    <p>Ship Name:<%= @instance.name %></p>
-    <p>Ship Type:<%= @instance.type %></p>
-    <p>Ship Booty:<%= @instance.booty %></p>
-    <% end %>
-    binding.pry
+    <p>Ship Name:<%= @ships[0].name %></p>
+    <p>Ship Type:<%= @ships[0].type %></p>
+    <p>Ship Booty:<%= @ships[0].booty %></p>
 
     <h2>Display your second ship here</h2>
-    <p>Ship Name:<%= %></p>
-    <p>Ship Type:<%= %></p>
-    <p>Ship Booty:<%= %></p>
+    <p>Ship Name:<%= @ships[1].name %></p>
+    <p>Ship Type:<%= @ships[1].type %></p>
+    <p>Ship Booty:<%= @ships[1].booty %></p>
   </body>
 </html>
